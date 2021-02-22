@@ -5,7 +5,9 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-plugins: [jekyll-paginate]
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
 
 # Site settings
 title: Conan C/C++ Package Manager
@@ -30,4 +32,3 @@ kramdown:
 
 sass:
   sass_dir: _sass
-#Plugins
